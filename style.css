@@ -1,0 +1,171 @@
+#menu {
+  background-color: #1F2937;
+  padding-top: 20px;
+  padding-bottom: 200px;
+  margin-bottom: 0;
+}
+
+
+.container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+  background-color: #1F2937;
+  gap: 40px;
+}
+.image-placeholder {
+    display: flex;
+    flex: 1;
+}
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-style: italic;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #2862C6; /* Slightly darker on hover */
+}
+
+img {
+    background-color: #6C757D; /* Gray color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    flex: 0;
+    align-self: stretch;
+    max-height: 400px;
+    width: auto;
+}
+.text-content {
+    flex: 1;
+}
+
+.carousel-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+  background-color: #1F2937;
+  gap: 40px;
+}
+
+.carousel-text {
+  flex: 1;
+  min-width: 300px;
+  color: #F9FAF8;
+}
+
+.carousel-container {
+  flex: 1;
+  min-width: 300px;
+}
+
+.carousel-img {
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+#spinner-overlay {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+#spinner-overlay.fade-out {
+  opacity: 0;
+}
+
+/* Make body and sections consistent */
+body {
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+/* Ensure images don't overflow */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Text content responsiveness */
+.text-content {
+  text-align: center;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .text-content {
+    text-align: left;
+  }
+}
+
+/* Carousel and menu layout tweaks */
+.carousel-section,
+#menu {
+  padding: 60px 15px;
+}
+
+.carousel-text {
+  text-align: center;
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .carousel-text {
+    text-align: left;
+    margin-top: 0;
+  }
+}
+
+/* Spinner fade-out animation */
+.fade-out {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer h5 {
+  font-weight: bold;
+}
+footer {
+  margin-top: 0;
+}
+
+
+body {
+  background-color: #1F2937;
+  margin: 0;
+  padding: 0;
+}

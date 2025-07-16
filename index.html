@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Spinner Overlay -->
+  <div id="spinner-overlay" class="d-flex justify-content-center align-items-center position-fixed top-0 start-0 w-100 h-100 bg-dark bg-opacity-75" style="z-index: 9999;">
+    <div class="spinner-border text-light" role="status" style="width: 3rem; height: 3rem;">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+
+  <header>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+    <section class="container-2">
+      <div class="text-content">
+        <p class="main-text">Aurum</p>
+        <p class="subtext">Where Taste Meets Timeless Elegance</p>
+        <button class="rounded">Book an Experience</button>
+      </div>
+      <img src="images/elegant-dining-setup-highend-restaurant-600nw-2455436959.webp" alt="">
+    </section>
+    <section class="carousel-section">
+      <!-- Carousel Section -->
+      <div class="carousel-container">
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          </div>
+
+          <!-- Slides -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/Cacio-e-Pepe-10.jpg" alt="Pasta" class="d-block w-100 carousel-img">
+            </div>
+            <div class="carousel-item">
+              <img src="images/62bbae40e8dfd4e2214c85c1.webp" alt="Steak" class="d-block w-100 carousel-img">
+            </div>
+            <div class="carousel-item">
+              <img src="images/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2015__04__chicken-fajitas-horiz-a2-1800-8ca8b1b6a694468b8bccf5a1d8e07c6d.jpg" alt="Chicken" class="d-block w-100 carousel-img">
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+            <!-- Text Section -->
+      <div class="carousel-text">
+        <h2 class="display-5 fw-bold">Signature Dishes</h2>
+        <p class="fs-5 fst-italic">Explore our curated selection of gourmet experiences, crafted by world-class chefs to delight every palate.</p>
+        <a href="#menu" class="btn btn-primary rounded">View Full Menu</a>
+      </div>
+    </section>
+    <section id="menu" class="container-fluid text-light px-5 py-5">
+        <h2 class="text-center text-light mb-4">Our Signature Dishes</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+          
+          <!-- Card 1 -->
+          <div class="col">
+            <div class="card h-100 bg-dark text-light border-0">
+              <img src="images/Cacio-e-Pepe-10.jpg" class="card-img-top" alt="Cacio e Pepe">
+              <div class="card-body">
+                <h5 class="card-title">Cacio e Pepe</h5>
+                <p class="text-muted">$18</p>
+                <p class="card-text">A Roman classic made with Pecorino Romano and freshly cracked pepper.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col">
+            <div class="card h-100 bg-dark text-light border-0">
+              <img src="images/62bbae40e8dfd4e2214c85c1.webp" class="card-img-top" alt="Ribeye Steak">
+              <div class="card-body">
+                <h5 class="card-title">Grilled Ribeye</h5>
+                <p class="text-muted">$32</p>
+                <p class="card-text">Juicy ribeye steak grilled to perfection with herb butter and garlic mash.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col">
+            <div class="card h-100 bg-dark text-light border-0">
+              <img src="images/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2015__04__chicken-fajitas-horiz-a2-1800-8ca8b1b6a694468b8bccf5a1d8e07c6d.jpg" class="card-img-top" alt="Fajita Chicken">
+              <div class="card-body">
+                <h5 class="card-title">Sizzling Chicken Fajitas</h5>
+                <p class="text-muted">$24</p>
+                <p class="card-text">Tender chicken served with sautéed peppers and onions on a sizzling platter.</p>
+              </div>
+            </div>
+          </div>
+    </section>
+
+  <footer class="bg-dark text-light pt-5 pb-3">
+    <div class="container">
+      <div class="row">
+
+        <!-- Contact Info -->
+        <div class="col-md-4 mb-4">
+          <h5>Contact Us</h5>
+          <p class="mb-1">📍 123 Gourmet Street, Food City</p>
+          <p class="mb-1">📞 (123) 456-7890</p>
+          <p>✉️ contact@aurumrestaurant.com</p>
+        </div>
+
+        <!-- Opening Hours -->
+        <div class="col-md-4 mb-4">
+          <h5>Opening Hours</h5>
+          <p class="mb-1">Monday – Friday: 12 PM – 10 PM</p>
+          <p>Saturday – Sunday: 1 PM – 11 PM</p>
+        </div>
+
+        <!-- Social Media -->
+        <div class="col-md-4 mb-4">
+          <h5>Follow Us</h5>
+          <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i> Facebook</a><br>
+          <a href="#" class="text-light me-3"><i class="bi bi-instagram"></i> Instagram</a><br>
+          <a href="#" class="text-light"><i class="bi bi-twitter"></i> Twitter</a>
+        </div>
+      </div>
+
+      <hr class="border-light">
+
+      <div class="text-center">
+        <small>© 2025 Aurum Restaurant | Designed by Ali Shahrez</small>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // Wait until ALL images have fully loaded
+      const allImages = Array.from(document.images);
+      let loadedCount = 0;
+
+      if (allImages.length === 0) {
+        hideSpinner(); // No images to load
+      }
+
+      allImages.forEach((img) => {
+        if (img.complete) {
+          increment();
+        } else {
+          img.addEventListener("load", increment);
+          img.addEventListener("error", increment);
+        }
+      });
+
+      function increment() {
+        loadedCount++;
+        if (loadedCount === allImages.length) {
+          setTimeout(hideSpinner, 500); // add slight delay for smooth experience
+        }
+      }
+
+      function hideSpinner() {
+          const spinner = document.getElementById('spinner-overlay');
+          if (spinner) {
+            spinner.classList.add('fade-out');
+            setTimeout(() => spinner.remove(), 500); // wait for fade to finish
+            console.log("✅ Spinner fading and removing");
+        }
+      }
+    });
+  </script>
+</body>
+</html>
